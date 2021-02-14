@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header {
+    background-color: #3A3D40;
+    display:block;
+    overflow:hidden;
+    position: sticky;
+    top: 0;
+    border-bottom: 6px solid #4A4D50;
+}
+header li {
+    padding: 4em 2em 2em;
+    border-right: 0.5px solid black;
+    border-left: 1px solid #4A4D50;
+    text-align: center;
+}
+#headerNav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    color: white;
+    padding: 0;
+    margin-right: 8em;
+    border-left: 0.5px solid black;
+    border-right: 1px solid #4A4D50;
+}
