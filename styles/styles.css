@@ -28,3 +28,77 @@ header li {
     border-left: 0.5px solid black;
     border-right: 1px solid #4A4D50;
 }
+
+#topFooter {
+    color: white;
+    background-color: #3A3D40;
+    padding: 5px;
+    border-top: 5px solid #27292B;
+}
+
+#topFooter p {
+    width: 25%;
+}
+
+#bottomFooter {
+    color: white;
+    background-color: #2F3235;
+    padding: 5px;
+    border-top: 3px solid #27292B;
+    overflow: hidden;
+}
+#bottomFooter p {
+    display: inline-block;
+    padding-top: 2rem;
+    padding-left: 8rem;
+}
+#socials {
+    width: fit-content; 
+    list-style-type: none;
+    display: flex;
+    float: right;
+    padding: 15px 8rem 15px 0;
+    /* padding-bottom: 30px;
+    padding-right: 8rem; */
+}
+
+#socials li {
+    height: 40ppx;
+    width: 40px;
+    margin: 0 10px;
+}
+.fa {  
+    padding: 20px;  
+    text-align: center;  
+    margin: 5px;  
+    font-size: 30px;  
+    width: 50px;  
+  }  
+  .fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-pinterest {  
+    background: #cb2027;  
+    color: white;  
+  }  
+  .fa-linkedin {  
+    background: #007bb5;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }  
+  .fa-google {  
+    background: #dd4b39;  
+    color: white;  
+  } 
+  .fa:hover {  
+      opacity: 0.9;  
+  }  
+
