@@ -3,6 +3,9 @@
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
+#container {
+    padding: 5rem;
+}
 header {
     background-color: #3A3D40;
     display:block;
@@ -29,15 +32,47 @@ header li {
     border-right: 1px solid #4A4D50;
 }
 
+/* #mainContact {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+
+} */
 #topFooter {
+    display:block;
     color: white;
     background-color: #3A3D40;
-    padding: 5px;
-    border-top: 5px solid #27292B;
+    padding: 20px;
+    border-top: 5px solid #27292B;    
+    overflow: auto;
+
 }
 
 #topFooter p {
-    width: 25%;
+    /* width: 25%; */
+    padding-bottom: 20px;
+    margin: 15px 0;
+    border-bottom: 1px dotted #A3A3A3;
+   
+
+}
+
+#popPosts, #twitter, #moreInfo, #footerContact{
+    display: inline-block;
+    /* float: left; */
+    color: white;
+    font-size: 12px;
+    width: 10%;
+   padding: 25px;
+   align-content: center;
+   vertical-align: top;
+}
+
+#submitButton {
+    background-color: #8AB3CD;
+    color:white;
+    border: 1px solid black;
+    border-radius: 2px;
 }
 
 #bottomFooter {
@@ -46,6 +81,7 @@ header li {
     padding: 5px;
     border-top: 3px solid #27292B;
     overflow: hidden;
+    clear: both;
 }
 #bottomFooter p {
     display: inline-block;
