@@ -3,9 +3,6 @@
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-#container {
-    padding: 5rem;
-}
 header {
     background-color: #3A3D40;
     display:block;
@@ -38,6 +35,7 @@ header li {
     margin: 20px;
 
 } */
+
 #topFooter {
     display:block;
     color: white;
@@ -45,6 +43,7 @@ header li {
     padding: 20px;
     border-top: 5px solid #27292B;    
     overflow: auto;
+    clear:both;
 
 }
 
@@ -62,18 +61,40 @@ header li {
     /* float: left; */
     color: white;
     font-size: 12px;
-    width: 10%;
+    width: 15%;
    padding: 25px;
    align-content: center;
    vertical-align: top;
+   margin-left:110px;
 }
 
+#footerContact input, #footerContact textarea {
+    background-color: #34373A;
+    border: none;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+#footerContact {
+    padding: 15px;
+}
+
+#footerContact textarea {
+    height: 120px;
+}
 #submitButton {
     background-color: #8AB3CD;
     color:white;
     border: 1px solid black;
     border-radius: 2px;
 }
+
+#footerContact #submitButton {
+    height: 30px;
+    width: 50%;
+}
+
 
 #bottomFooter {
     color: white;
