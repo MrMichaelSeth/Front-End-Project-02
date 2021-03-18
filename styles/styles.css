@@ -3,159 +3,41 @@
     margin: 0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-header {
-    background-color: #3A3D40;
-    display:block;
-    overflow:hidden;
-    position: sticky;
-    top: 0;
-    border-bottom: 6px solid #4A4D50;
-}
-header li {
-    padding: 4em 2em 2em;
-    border-right: 0.5px solid black;
-    border-left: 1px solid #4A4D50;
-    text-align: center;
-}
-#headerNav {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    float: right;
-    color: white;
-    padding: 0;
-    margin-right: 8em;
-    border-left: 0.5px solid black;
-    border-right: 1px solid #4A4D50;
+
+.btn {
+    display: block;
+    color: whitesmoke;
+    background-color: #84a5bb;
+    width: 50%;
+    margin-top: .5rem;
 }
 
-/* #mainContact {
-    display: flex;
-    padding: 10px;
-    margin: 20px;
-
-} */
-
-#topFooter {
-    display:block;
-    color: white;
-    background-color: #3A3D40;
-    padding: 20px;
-    border-top: 5px solid #27292B;    
-    overflow: auto;
-    clear:both;
-
-}
-
-#topFooter p {
-    /* width: 25%; */
-    padding-bottom: 20px;
-    margin: 15px 0;
-    border-bottom: 1px dotted #A3A3A3;
-   
-
-}
-
-#popPosts, #twitter, #moreInfo, #footerContact{
-    display: inline-block;
-    /* float: left; */
-    color: white;
-    font-size: 12px;
-    width: 15%;
-   padding: 25px;
-   align-content: center;
-   vertical-align: top;
-   margin-left:110px;
-}
-
-#footerContact input, #footerContact textarea {
+.footerForm input, textarea {
+    color: whitesmoke;
     background-color: #34373A;
     border: none;
-    margin: 10px 0;
-    padding: 10px;
-    width: 100%;
+    padding: .5rem;
+    width: 75%;
 }
 
-#footerContact {
-    padding: 15px;
+span {
+    color: #84a5bb;
 }
 
-#footerContact textarea {
-    height: 120px;
-}
-#submitButton {
-    background-color: #8AB3CD;
-    color:white;
-    border: 1px solid black;
-    border-radius: 2px;
+.topFooter {
+    padding: 1.5rem;
+    margin: .5rem;
 }
 
-#footerContact #submitButton {
-    height: 30px;
-    width: 50%;
+.topFooter p {
+    font-size: .9rem;
+    margin-top: 1.5rem;
+    padding-bottom: .75rem;
 }
-
-
-#bottomFooter {
-    color: white;
-    background-color: #2F3235;
-    padding: 5px;
-    border-top: 3px solid #27292B;
-    overflow: hidden;
-    clear: both;
+.twitter p{
+    border-bottom: dotted  #34373A;
 }
-#bottomFooter p {
-    display: inline-block;
-    padding-top: 2rem;
-    padding-left: 8rem;
+.fa-twitter {
+    color: whitesmoke;
+    padding-right: .5rem ;
 }
-#socials {
-    width: fit-content; 
-    list-style-type: none;
-    display: flex;
-    float: right;
-    padding: 15px 8rem 15px 0;
-    /* padding-bottom: 30px;
-    padding-right: 8rem; */
-}
-
-#socials li {
-    height: 40ppx;
-    width: 40px;
-    margin: 0 10px;
-}
-.fa {  
-    padding: 20px;  
-    text-align: center;  
-    margin: 5px;  
-    font-size: 30px;  
-    width: 50px;  
-  }  
-  .fa-facebook {  
-    background: #3B5998;  
-    color: white;  
-  }  
-  .fa-twitter {  
-    background: #55ACEE;  
-    color: white;  
-  }  
-  .fa-pinterest {  
-    background: #cb2027;  
-    color: white;  
-  }  
-  .fa-linkedin {  
-    background: #007bb5;  
-    color: white;  
-  }  
-  .fa-instagram {  
-    background: #125688;  
-    color: white;  
-  }  
-  .fa-google {  
-    background: #dd4b39;  
-    color: white;  
-  } 
-  .fa:hover {  
-      opacity: 0.9;  
-  }  
-
